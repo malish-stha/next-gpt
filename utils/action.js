@@ -19,6 +19,7 @@ export const generateChatResponse = async (chatMessage) => {
 
     return response.choices[0].message;
   } catch (error) {
+    console.log(error);
     return null;
   }
 };
