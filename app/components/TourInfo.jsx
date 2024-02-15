@@ -1,4 +1,5 @@
-const TourInfo = () => {
+const TourInfo = ({ tour }) => {
+  console.log(tour);
   return <div>TourInfo</div>;
 };
 
