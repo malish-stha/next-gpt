@@ -21,5 +21,6 @@ model Tour{
   title String
   description String 
   image String? 
+  stops Json
   @@unique([city, country])
 }

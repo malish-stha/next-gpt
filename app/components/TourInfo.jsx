@@ -15,7 +15,6 @@ const TourInfo = ({ tour }) => {
       </ul>
     </div>
   );
-  return <div>TourInfo</div>;
 };
 
 export default TourInfo;
